@@ -1,0 +1,8 @@
+Stock Service and email service are consumers.
+
+Order Service is producer.
+
+Base Domains : Not used. used its dependencies in each of the above microservice by importing it 
+in the pom file in each of the service above and then using the dao class there.
+
+also each consumer microservice should have different consumer group id.
