@@ -1,0 +1,12 @@
+all the three microservices are loosely coupled.
+ all of them are independent of each other. (loosely coupled). 
+producer wont have to know about consumer, and vice versa.
+the consumers only have to read from the broker thats it.
+the orderservice will just send the message and wont have to wait for the response.
+
+all mesage brokers will use message broker for asynchronous architecture.
+orderservice wont have to know about other two services(loosely coupled), etc
+
+intellij will add these 4 project as a module to the parent project
+
+u can import the small project as modules by right click on the big project and click open module settings and then then add the mini projects as modules
